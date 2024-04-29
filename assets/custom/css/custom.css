@@ -1641,7 +1641,7 @@ html{
     margin: 0;
 }
 .fables-history-carousel #sync2 .current .item {
-  background: #E54D42;
+  background: #D52578;
   transform: scale(1.3);
   -o-transform: scale(1.3);
   -webkit-transform: scale(1.3);
@@ -1702,7 +1702,7 @@ html{
     opacity: 1;
 }
 .fables-history-carousel #sync1.owl-theme .owl-dot.active span, .owl-theme .owl-dot:hover span {
-    background: #E54D42;
+    background: #D52578;
 }
 .fables-history-carousel #sync1.owl-theme .owl-dot span {
     background: #D5D5D5;
@@ -1731,7 +1731,7 @@ html{
     position: relative;
 }
 .fables-background-link:hover{
-    color: #E54D42;
+    color: #D52578;
 }
 .fables-background-link:hover:after{
     opacity: 0;
@@ -1762,7 +1762,7 @@ html{
     height: 44px;
     width: 44px;
     line-height: 44px;
-    color: #E54D42;
+    color: #D52578;
     text-align: center;
     position: absolute;
     top: 38%;
@@ -1770,7 +1770,7 @@ html{
 }
 .default-carousel-nav .owl-nav [class*=owl-]:hover{
     background-color:  rgba(255,255,255,.5);
-    color:  #E54D42;
+    color:  #D52578;
 }
 .default-carousel-nav .owl-nav .owl-prev { 
     left: 20px; 
@@ -3368,36 +3368,7 @@ a.toggle-menu{
       transition: .2s;
       color: #fff !important; 
 }
-.navbar .dropdown-menu.mega-menu.v-2 a.news-title-2:hover {
-        color: #d0d6e2 !important; 
-}
-.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul {
-    list-style: none; 
-}
-.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li {
-  -webkit-transition: .3s;
-  transition: .3s; 
-}
-.navbar .dropdown-menu.mega-menu.v-2 .sub-menu ul.caret-style li:hover {
-    background-color: rgba(0, 0, 0, 0.2);
-    -webkit-transition: .3s;
-    transition: .3s; 
-}      
-.navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item {
-    color: #fff !important; 
-}
-.navbar .dropdown-menu.mega-menu.v-2 .sub-menu a.menu-item:hover {
-    color: #fff !important; 
-}
-.navbar .dropdown-menu.mega-menu.v-2 .sub-title {
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-    border-bottom: 1px solid;
-    color: #fff;
-}
-.navbar .dropdown-menu.mega-menu.v-2 .font-small {
-    font-size: 0.85rem; 
-}
+
 .search-section {
     z-index: 99999;
     position: fixed;
@@ -3441,4 +3412,12 @@ a.toggle-menu{
     border-right: 0 !important;
     border-left: 0 !important;
     border-radius: 0;
+}
+.pre{
+    font-size: 30px;
+    color: #D52578;
+    opacity: .5;
+}
+.nav-link{
+    color: #009FE1;
 }
